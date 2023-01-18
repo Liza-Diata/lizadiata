@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    min-width: 100;
+    min-height: 100vh;
+    background-color: #000000;
+}
+#navmenu a{
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-weight: 700;
+    color: #dbe1d7;
+    padding: .5rem;
+}
+a:hover{
+    background: #73ce21;
+}
+a:active{
+    background: #73ce21;
+}
+nav{
+    box-shadow: 2px 1px#f9fbf7;
+    background: rgb(0, 0, 0);
+}
+.logo{
+    width: 12rem;
+}
+.showcase{
+    width: 100vw;
+    height: 100vh;
+}.form{
+    left: 3%;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+}
+.btn{
+    background-color: #73ce21;
+    color: #000000;
+    margin-left: 20px;
+    align-items: flex-start;
+}
+.hero{
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+    margin-top: 7%;
+    background-color: #818181;
+}
+.hero .text{
+    font-weight: 700;
+    text-align: left;
+    font-size: 1.8vw;
+    color:#d4d8d1;
+    margin-top: 6%;
+    padding-top: 10%;
+    background-image: linear-gradient(to bottom,#0a0e06,#818181);
+    height: 80vh;
+}
+.hero h4{
+    padding-top: 10%;
+}
+.hero .icon{
+    width: 40px;
+    height: 40px;
+    margin-left: 2%;
+    margin-top: 10%;
+    cursor: pointer;
+}
+.card{
+    cursor: pointer;
+}
+.hero img{
+    height: 90vh;
+    margin-top: 2%;
+    margin-left: 22%;
+}
+.features{
+    padding-top: 5%;
+    text-align: center;
+    padding: left 50%;
+    padding-bottom: 6.4%;
+}
+.about{
+    height: 50%;
+    /* margin-top: 5%; */
+    color: #e4e6e1;
+    background-image: linear-gradient(to top,#0a0e06,#818181);
+}
+.about-text{
+    padding: 10%;
+}
+.about p{
+    font-size: 1.5vw;
+    width: 80%;
+    margin-left: 11%;
+}
+.award{
+  padding-top: 3%;
+}
+.features p{
+    padding-left: 10%;
+    text-align: left;
+    font-size: 1.5vw;
+    margin-top: 3%;
+}
+.award p{
+    font-size: 1.8vw;
+    font-weight: 700;
+    line-height: 5px;
+    margin-bottom: 11.5%;
+}
+/* style for services */
+.services{
+    background: #d5d7d0;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.services p{
+    padding: 20%;
+    font-size: 2vw;
+    color: #1a1c19;
+}
+.services h1{
+    font-size: 3vw;
+    padding-top: 10%;
+    color: #161714;
+    font-weight: 700;
+}
+.services img{
+    padding: 10%;
+}
+/* style for projects */
+.card img{
+    width: 100%;
+    height: 10rem;
+    cursor: pointer;
+}
+.projects{
+    padding-top: 10%;
+    background: #3a3c37;
+    font-weight: 700;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.projects .card{
+    margin: 2rem;
+}
+.projects h1{
+    text-align: center;
+    color: #d5d7d0;
+}
+.projects i{
+    margin-left: 18%;
+    color: #d5d7d0;
+    font-size: 1.5vw;
+}
+footer{
+    background-color: #0a0e06;
+}
+footer p{
+    color: #d5d7d0;
+    font-size: 1.5vw;
+}
+footer h5{
+    color: #73ce21;
+}
+
+
